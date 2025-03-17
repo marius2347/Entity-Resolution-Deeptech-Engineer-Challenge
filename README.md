@@ -11,6 +11,7 @@ a) The record is given the same group ID if a match is discovered over the thres
 b) A new group is formed if no match is discovered.
 - Group ID mapping makes it simple to group duplicate records in the DataFrame by assigning each one a company_group ID based on the deduplication process.
 - The last stage, result aggregation, groups the records according to their group IDs, making it evident which firm names have been grouped together as duplicates.
+- Attention! The similarity threshold of 90 is chosen as an example; it can be adjusted according to the desired tolerance level for naming differences.
 
 ## Image
 ![Resulted Dataset](image.png)
